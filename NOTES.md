@@ -82,9 +82,9 @@ $ sequelize db:migrate
 * We will create new instances of `Bird` inside of a controller (router) and probably use express.js to do it.
 * We will get the bird's info from a form and do something like: `let bird = Bird.create({name: params.name ... })`
 
-### DIAGRAMMING!11
+### DIAGRAMMING
 
-WHat's the fuss about js and stuff.
+What's the fuss about js and stuff.
 
 
 ```plain

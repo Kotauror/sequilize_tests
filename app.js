@@ -12,7 +12,6 @@ app.get('*', (req, res) => res.status(200).send({
 
 module.exports = app;
 
-
 // module.exports = (app) => {
 // app.get('/', function(req, res) {
 //   res.sendFile('/Users/kotpsot/Desktop/Makers Academy/sequilize_test/index.html');

@@ -7,8 +7,7 @@ module.exports = (app) => {
   })
 
   app.post('/', kotsController.create);
-    // app.post('/', kotscontroller.create);
-
+    var namename = body.form.catname;
 };
 
 

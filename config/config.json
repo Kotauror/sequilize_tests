@@ -1,22 +1,22 @@
 {
   "development": {
-    "username": "kotpsot",
+    "username": "marcusgardiner",
     "password": null,
-    "database": "seq-test",
+    "database": "makers_bnb",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
-    "username": "kotpsot",
+    "username": "marcusgardiner",
     "password": null,
-    "database": "seq-test2",
+    "database": "makers_bnb",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
-    "username": "kotpsot",
+    "username": "marcusgardiner",
     "password": null,
-    "database": "seq-test3",
+    "database": "makers_bnb",
     "host": "127.0.0.1",
     "dialect": "postgres"
   }

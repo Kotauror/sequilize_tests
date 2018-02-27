@@ -1,7 +1,10 @@
 const express = require('express')
 const Kot = require('./models/kot.js')
 const kotsController = require('./controllers')
-const app = express()
+const app = express();
+var bodyParser = require('body-parser');
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: true}));
 
 app.listen(3000, () => console.log('Example app listening on port 3000!'))
 

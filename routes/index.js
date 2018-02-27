@@ -1,13 +1,18 @@
 const kotsController = require('../controllers').kots;
+var path = require('path');
 
 module.exports = (app) => {
 
   app.get('/', function(req, res) {
-    res.sendFile('/Users/kotpsot/Desktop/Makers Academy/sequilize_test/index.html');
-  })
+    res.sendFile(path.join(__dirname + '/index.html'));
+  });
+
+//   res.sendFile('/Users/kotpsot/Desktop/Makers Academy/sequilize_test/index.html');
+
 
   app.post('/', kotsController.create);
-    var namename = body.form.catname;
+    // app.post('/', kotscontroller.create);
+
 };
 
 

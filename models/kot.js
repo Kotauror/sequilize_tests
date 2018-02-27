@@ -7,13 +7,5 @@ module.exports = (sequelize, DataTypes) => {
     // associations can be defined here
   };
 
-  Kot.glaszcz = function() {
-    console.log("miau miau");
-  }
-
-  Kot.returnName = function() {
-    console.log(this.name);
-  }
-
   return Kot;
 };

@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Kotauror/sequilize_tests/issues"
   },
-  "homepage": "https://github.com/Kotauror/sequilize_tests#readme"
+  "homepage": "https://github.com/Kotauror/sequilize_tests#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }

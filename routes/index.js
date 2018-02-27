@@ -3,9 +3,18 @@ var path = require('path');
 
 module.exports = (app) => {
 
-  app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname + '/index.html'));
-  });
+  // app.get('/', function(req, res) {
+  //   // kotsController.list;
+  //   // res.sendFile(path.join(__dirname + '/index.html'
+  //   res.sendFile(path.join(__dirname + '/index.html'));
+  // });
+  //
+  // // app.get('/newroute', function(req, res) {
+  // //   kotsController.list;
+  // // });
+
+  app.get('/', kotsController.list);
+
 
 //   res.sendFile('/Users/kotpsot/Desktop/Makers Academy/sequilize_test/index.html');
 
